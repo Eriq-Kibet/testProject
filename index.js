@@ -18,6 +18,12 @@ function multiply(a,b){
   return m;
 }
 
+const modulus = (a, b) => {
+  const modulus = a % b;
+  console.log(modulus);
+  return modulus;
+};
+modulus(9, 18);
 start();
 sum(4, 5);
 multiply(3,7);
