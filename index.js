@@ -12,9 +12,9 @@ const sum = (a, b) => {
   return sum;
 };
 
-function multiply(a,b){
+function multiply(a, b) {
   const m = a * b;
-  console.log('Multipy', m);
+  console.log("Multipy", m);
   return m;
 }
 
@@ -29,8 +29,14 @@ function concatText(a,b){
    console.log('joinedText', joinedText);
    return joinedText;
 }
+function division(a, b) {
+  const divide = (a / b);
+  console.log(divide);
+  return divide;
+}
 modulus(9, 18);
 start();
 sum(4, 5);
 multiply(3,7);
 concatText("Hello","World");
+division(900, 100);
