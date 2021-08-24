@@ -12,5 +12,12 @@ const sum = (a, b) => {
   return sum;
 };
 
+function multiply(a,b){
+  const m = a * b;
+  console.log('Multipy', m);
+  return m;
+}
+
 start();
 sum(4, 5);
+multiply(3,7);
