@@ -1,6 +1,7 @@
 function start() {
   console.log("Started ...");
 }
+// log test
 function test() {
   console.log("test..");
 }
