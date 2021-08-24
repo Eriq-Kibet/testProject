@@ -23,7 +23,14 @@ const modulus = (a, b) => {
   console.log(modulus);
   return modulus;
 };
+
+function concatText(a,b){
+   const joinedText = `${a} ${b}`;
+   console.log('joinedText', joinedText);
+   return joinedText;
+}
 modulus(9, 18);
 start();
 sum(4, 5);
 multiply(3,7);
+concatText("Hello","World");
